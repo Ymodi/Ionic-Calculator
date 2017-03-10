@@ -1,0 +1,59 @@
+/* Empty. Add your own CSS if you like */
+
+.display {
+	margin-top: 20px;
+	height: 30px;
+	text-align: right;
+	font-size: 50px;
+}
+
+.bar .title {
+	font-size: 20px !important;
+}
+
+.bar-header {
+	font-size: 45px;
+}
+
+.button {
+	width: 100%;
+	font-weight: bold;
+	font-size: 20px !important;
+	border: 1px solid black !important;
+}
+
+.zerobutton {
+	width: 210%;
+	font-weight: bold;
+	font-size: 20px !important;
+	border: 1px solid black !important;
+}
+
+.operationBtn {
+	background-color: orange !important;
+}
+
+.calculateBtn {
+	background-color: orange !important;
+}
+
+.clearBtn {
+	background-color: white !important;
+	border: 1px solid black !important;
+}
+
+.numbersBtn {
+	background-color: lightgrey !important;
+}
+
+.otherBtns {
+	background-color: rgb(49, 176, 253) !important;
+}
+
+.row {
+	margin: 2px;
+}
+
+p {
+	font-size: 15px;
+}

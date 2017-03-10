@@ -1,0 +1,32 @@
+<ion-view view-title="Calculator">
+	<ion-content style="background-color:#c0c0c0 !important">
+
+		<body>
+			<div style="padding-left:30px">
+				<p translate>SELECT_LANGUAGE</p>
+				<select ng-model="lang" ng-options="l.title for l in language" id="languagePicker" ng-change="languageStored(lang)">
+					<option value="" translate>CHOOSELANGUAGE</option>
+				</select>
+
+			</div>
+
+			<div style="padding-left:30px">
+				<p translate="VARIABLE_REPLACEMENT"></p>
+				<p translate="TITLE">{{selectedLanguage.title}}</p>
+				<p translate="Sample"></p>
+				<p translate="Step1"></p>
+				<p translate="Step1Detail"></p>
+				<p translate="Step2"></p>
+				<p translate="Step2Detail"></p>
+				<p translate="Step3"></p>
+				<p translate="Step3Detail"></p>
+				<p translate="Step4"></p>
+				<p translate="Step4Detail"></p>
+				<p translate="Result"></p>
+			</div>
+			<center><b><a ui-sref="tab.calculator" style="margin-left:2%;">Back to Calculator</a></b></center>
+		</body>
+
+	</ion-content>
+
+</ion-view>
